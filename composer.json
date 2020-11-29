@@ -24,12 +24,7 @@
   "prefer-stable": true,
   "autoload": {
     "psr-4": {
-      "CodeTech\\RouteInterface\\": "classes/"
-    }
-  },
-  "autoload-dev": {
-    "psr-4": {
-      "RouteBrowserTests\\": "tests/"
+      "CodeTech\\RouteInterface\\": "src/"
     }
   },
   "extra": {
