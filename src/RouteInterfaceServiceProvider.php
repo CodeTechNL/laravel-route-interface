@@ -18,7 +18,7 @@
             });
 
             $this->publishes([
-                __DIR__.'/resources/assets' => public_path('vendor/route-interface'),
+                __DIR__.'/../public' => public_path('vendor/route-interface'),
             ], 'route-interface');
         }
 
