@@ -14,4 +14,4 @@ This package is a very simple interface to display all routes in your webapplica
 
 Run the command`composer require codetechnl/route-interface`
 
-After installing publish the assets: `php artisan vendor:publish --tag=route-interface`
+After installing publish the assets and config: `php artisan vendor:publish --tag=route-interface --force`

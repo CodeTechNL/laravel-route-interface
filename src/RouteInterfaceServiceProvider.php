@@ -28,6 +28,10 @@
         {
             $configPath = __DIR__ . '/../config/route-interface.php';
 
+            $this->publishes([
+               $configPath => config_path('route-interface.php'),
+            ], 'route-interface');
+
             $this->mergeConfigFrom($configPath, 'route-interface');
         }
 
