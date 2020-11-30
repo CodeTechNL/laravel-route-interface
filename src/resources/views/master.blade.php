@@ -41,7 +41,7 @@
                 <!-- Begin Page Content -->
                 <div class="container-fluid">
 
-                    <route-interface-table></route-interface-table>
+                    <route-interface-table :settings="{{$settings}}"></route-interface-table>
 
 
                 </div>

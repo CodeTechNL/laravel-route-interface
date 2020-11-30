@@ -11404,4 +11404,17 @@ body.sidebar-toggled footer.sticky-footer {
     background-color: #2a3140 !important;
 }
 
+.table-container {
+    min-height: 200px;
+    position: relative;
+}
+
+.table-container-centered {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    text-align: center;
+}
 

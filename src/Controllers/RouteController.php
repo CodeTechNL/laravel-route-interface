@@ -19,7 +19,9 @@
          */
         public function index()
         {
-            return view('route-interface::master');
+            $settings = json_encode(config('route-interface.interface', []));
+
+            return view('route-interface::master', compact('settings'));
         }
 
         /**
@@ -38,11 +40,12 @@
                     'name'             => $route->getName(),
                     'domain'           => $route->getDomain(),
                     'action_method'    => $route->getActionMethod(),
+                    'methods'          => $route->methods(),
                     'uri'              => $route->uri(),
                     'middleware'       => $route->getAction('middleware'),
                     'controller'       => $route->getAction('controller'),
                     'prefix'           => $route->getAction('prefix'),
-                    'wheres'            => $route->wheres,
+                    'wheres'           => $route->wheres,
                     'route_parameters' => $route->parameterNames()
                 ]);
             }

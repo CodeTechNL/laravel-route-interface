@@ -2,7 +2,10 @@
   "name": "codetechnl/route-interface",
   "description": "A web-based route list GUI for Laravel.",
   "keywords": [
-    "laravel"
+    "laravel",
+    "router",
+    "interface",
+    "development"
   ],
   "authors": [
     {
