@@ -13,3 +13,7 @@ ul.no-style {
     padding: 0;
     list-style: none;
 }
+
+.company-logo {
+    height: 30px;
+}

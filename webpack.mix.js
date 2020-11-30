@@ -18,4 +18,5 @@ mix.js('src/resources/js/app.js', 'public/js')
         'src/resources/css/font-awesome-free.css',
         'src/resources/css/custom.css',
     ], 'public/css/all.css')
+    .copy('src/resources/images', 'public/images')
     .copy('src/resources/webfonts', 'public/webfonts');

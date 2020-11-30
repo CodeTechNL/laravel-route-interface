@@ -32,7 +32,9 @@
             <div id="content">
 
                 <!-- Topbar -->
-                <route-interface-header></route-interface-header>
+                <nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow">
+                    <img class="company-logo" src="/vendor/route-interface/images/logo.png">
+                </nav>
 
                 <!-- End of Topbar -->
 
