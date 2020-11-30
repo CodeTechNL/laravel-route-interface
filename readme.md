@@ -15,3 +15,5 @@ This package is a very simple interface to display all routes in your webapplica
 Run the command`composer require codetechnl/route-interface`
 
 After installing publish the assets and config: `php artisan vendor:publish --tag=route-interface --force`
+
+![Interface Preview](https://raw.githubusercontent.com/CodeTechNL/laravel-route-inferface/main/preview.png "Interface Preview")
