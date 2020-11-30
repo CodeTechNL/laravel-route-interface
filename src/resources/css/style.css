@@ -11404,18 +11404,4 @@ body.sidebar-toggled footer.sticky-footer {
     background-color: #2a3140 !important;
 }
 
-.strong {
-    font-weight: bold;
-}
 
-li span.label {
-    min-width: 150px;
-    display: inline-block;
-    margin-right: 10px;
-}
-
-ul.no-style {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-}
