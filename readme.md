@@ -1,6 +1,6 @@
 ## About
 
-This package is a very simple interface to display all routes in your webapplication. Instead of using the command line, you can pay a visit at yourdomain.com/development/routes. An interface with several options will appear.
+This package is a very simple interface to display all routes in your web application. Instead of using the command line, you can pay a visit at yourdomain.com/development/routes. An interface with several options will appear.
 
 ## Possibilities
 - Add search terms
